@@ -13,3 +13,4 @@
 - Пакет `ru.mentee.power` содержит:
     - `HelloWorld.java` - программа для вывода приветствия
     - `HelloGit.java` - простой пример работы с Git
+    - `Gradle Calculator` - Проект калькулятора с использованием Gradle
