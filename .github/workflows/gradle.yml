@@ -1,4 +1,4 @@
-name: Java CI with Gradle
+name: Java CI with Gradle  # Название вашего workflow
 
 on:
   push:
@@ -16,8 +16,8 @@ jobs:
       - name: Set up JDK 21
         uses: actions/setup-java@v3
         with:
-          java-version:
-          distribution:
+          java-version: '21'
+          distribution: 'temurin'
 
       - name: Prepare
         run: chmod +x gradlew
