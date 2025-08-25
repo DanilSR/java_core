@@ -12,7 +12,7 @@ public class Calculator {
     }
     public double divide(int a, int b) {
         if (b == 0) {
-            throw new ArithmeticException("Деление на ноль");
+            throw new ArithmeticException("Деление на ноль,");
         }
         return (double) a / b;
     }
